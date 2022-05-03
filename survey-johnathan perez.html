@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey-Johnathan Perez</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <header>
+
+        <h1>MCU Survey</h1>
+    </header>
+    <form action="process.php" method="post" name="MCUForm">
+        <fieldset id="fieldOne">
+            <legend>Personal Information</legend>
+            <div id="first">
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="first_Name" value="">
+                <span>
+
+                </span>
+            </div>
+            <div id="last">
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="last_Name" value="">
+                <span>
+
+                </span>
+            </div>
+            <div id="email">
+                <label for="emailAddress">Email Address:</label>
+                <input id="emailAddress" type="text" name="email_Address" value="">
+                <span>
+
+                </span>
+            </div>
+            <div id="phone">
+                <label for="phoneNumber">Phone Number:</label>
+                <input id="phoneNumber" type="text" name="phone_Number" value="">
+                <span>
+
+                </span>
+            </div>
+            <div id="url">
+                <label for="webAddress">Student Address:</label>
+                <input id="webAddress" type="text" name="web_Address" value="">
+                <span>
+                    
+                </span>
+            </div>
+          
+        </fieldset>
+        <br>
+        <br>
+        <fieldset id="fieldTwo">
+            <legend>Survey Questions</legend>
+            <div id="questionOne">
+                <p>What is your MCU movie?</p>
+                <input type="radio" name="survey_one" value="CaptainAmerica" id="CaptainAmerica">
+                <label for="survey_one">Captain America: Winter Soldier</label>
+                <input type="radio" name="survey_one" value="IronMan" id="IronMan">
+                <label for="survey_one">Iron Man</label>
+            </div>
+            <div id="questionTwo">
+                <p>Who is your favoirte character?</p>
+                <input type="radio" name="survey_two" value="CaptainAmerica" id="CaptainAmerica" >
+                <label for="survey_two">Captain America</label>
+                <input type="radio" name="survey_two" value="IronMan" id="IronMan">
+                <label for="survey_two">Iron Man</label>
+            </div>
+    
+            <div id="Submit">
+                <input id='submit' type="submit" name="submit" value="Submit" style="width: 300px; margin: 0 auto;">
+                <span>
+
+                </span>
+            </div>
+            
+        </fieldset>
+
+        <div id="badge">
+            <span>
+
+            </span>
+        </div>
+
+    </form>
+    <footer>
+        <h1>Johnathan Perez</h1>
+    </footer>
+   
+
+    <script src="js/process_form.js"></script>
+
+</body>
+</html>
+
+
+

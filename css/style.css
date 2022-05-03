@@ -1,0 +1,96 @@
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header,h2{
+    height:100%;
+    padding-top:30px;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(57, 149, 255);
+    color: -moz-linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    color: -webkit-linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    color: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3939",endColorstr="#ff6767",GradientType=1);
+}
+footer,h4{
+    height:100%;
+    padding-top:30px;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255,57,57);
+    color: -moz-linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    color: -webkit-linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    color: linear-gradient(90deg, rgba(255,57,57,1) 0%, rgba(255,201,0,1) 43%, rgba(255,103,103,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3939",endColorstr="#ff6767",GradientType=1);
+}
+
+#fieldOne{
+    border-radius: 20px;
+    border: black 2px solid;
+    background-color: rgb(78, 175, 255);
+    padding:30px;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+#fieldTwo{
+    border-radius: 20px;
+    border: black 2px solid;
+    background-color: rgb(255, 90, 90);
+    padding:30px;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+legend{
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input#firstName,#lastName,#emailAddress,#phoneNumber,#webAddress{
+    padding:10px;
+    margin: 20px;
+    border-radius: 100px;
+    border: none;
+}
+
+input#submit{
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#Submit{
+    padding-top: 40px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ */
+
+
+ body{
+     margin: auto;
+ }
